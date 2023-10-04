@@ -8,7 +8,7 @@ namespace Productos.Models;
     public class ModeloProductos
     {
         [Key]	
-        [Column("Idproducto")] // Especifica el nombre de la columna
+        [Column("Idproducto")] // Especifica el nombre de la columnaa
         public int Idproducto { get; set; }
         public string? Nombre { get; set; }
         public string? Marca { get; set; }
